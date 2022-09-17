@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Passive Income Calculator</title>
+    <meta charset="utf-8"/>
+    <style>
+      html {
+        background-color: #7c1ea3;
+        color: white;
+        font-family: sans-serif;
+      }
+      #stuff {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        width: 100%;
+        font-size: 2em;
+      }
+    </style>
+    <script src = "jquery-3.6.0.min.js"></script>
+    <script src = "dat.gui.min.js"></script>
+    <script src = "main.js"></script>
+  </head>
+  <body>
+    <div id="stuff">
+      <p>Total Savings: <span id="saved"></span></p>
+      <p>Annual Income from lump sum of savings: <span id="retirementIncome"></span></p>
+      <p>Annual Income from return on continued investment: <span id="sittingIncome"></span></p>
+      <p>Monthly Income from return on continued investment: <span id="monthlyIncome"></span></p>
+    </div>
+  </body>
+</html>
